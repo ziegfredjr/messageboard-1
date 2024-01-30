@@ -1,0 +1,80 @@
+2024-01-30 02:03:04 Error: [ArgumentCountError] Too few arguments to function HtmlHelper::css(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp on line 32 and at least 1 expected
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp(32): HtmlHelper->css()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(546): View->_render('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(481): View->renderLayout('<h2>Release Not...', 'default')
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', 'default')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#13 {main}
+2024-01-30 02:03:04 Error: Fatal Error (1): Uncaught ArgumentCountError: Too few arguments to function HtmlHelper::css(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp on line 32 and at least 1 expected in /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/HtmlHelper.php:432
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp(32): HtmlHelper->css()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(546): View->_render('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(481): View->renderLayout('<h2>Too few arg...', 'default')
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('er in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/HtmlHelper.php, line 432]
+2024-01-30 02:03:04 Error: [FatalErrorException] Uncaught ArgumentCountError: Too few arguments to function HtmlHelper::css(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp on line 32 and at least 1 expected in /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/HtmlHelper.php:432
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp(32): HtmlHelper->css()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(546): View->_render('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(481): View->renderLayout('<h2>Too few arg...', 'default')
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('er
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Argume...', '/Applications/X...', 432)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Argume...', '/Applications/X...', 432, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2024-01-30 02:03:04 Error: [ArgumentCountError] Too few arguments to function HtmlHelper::css(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp on line 32 and at least 1 expected
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp(32): HtmlHelper->css()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(546): View->_render('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(481): View->renderLayout('<h2>Release Not...', 'default')
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', 'default')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#13 {main}
+2024-01-30 02:03:04 Error: Fatal Error (1): Uncaught ArgumentCountError: Too few arguments to function HtmlHelper::css(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp on line 32 and at least 1 expected in /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/HtmlHelper.php:432
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp(32): HtmlHelper->css()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(546): View->_render('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(481): View->renderLayout('<h2>Too few arg...', 'default')
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('er in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/HtmlHelper.php, line 432]
+2024-01-30 02:03:04 Error: [FatalErrorException] Uncaught ArgumentCountError: Too few arguments to function HtmlHelper::css(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp on line 32 and at least 1 expected in /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/HtmlHelper.php:432
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Layouts/default.ctp(32): HtmlHelper->css()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(546): View->_render('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(481): View->renderLayout('<h2>Too few arg...', 'default')
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('er
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Argume...', '/Applications/X...', 432)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Argume...', '/Applications/X...', 432, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
